@@ -1,0 +1,36 @@
+/* Cor de fundo geral */
+body {
+  background-color: #fafafa; /* Fundo mais claro */
+  font-family: 'Arial', sans-serif; /* Fonte padrão */
+  color: #333; /* Texto escuro para melhor legibilidade */
+  padding: 20px;
+}
+
+/* Estilo dos botões */
+button {
+  background-color: #4CAF50; /* Cor de fundo do botão */
+  color: white; /* Texto branco */
+  border: none; /* Sem borda */
+  padding: 10px 20px; /* Espaçamento interno */
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Cursor de clique */
+  transition: background-color 0.3s ease; /* Transição suave para cor */
+}
+
+/* Efeito de hover nos botões */
+button:hover {
+  background-color: #45a049; /* Cor de hover */
+}
+
+/* Estilo de campos de entrada */
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%; /* Ocupa a largura toda */
+  padding: 10px; /* Espaçamento interno */
+  margin: 10px 0; /* Espaçamento entre os campos */
+  border: 2px solid #ccc; /* Borda de entrada */
+  border-radius: 5px; /* Bordas arredondadas */
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+  border-color: #4CAF50; /* Cor da borda quando focado */
+}
